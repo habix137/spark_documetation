@@ -109,11 +109,16 @@ Example:
 
 ```
 127.0.0.1 localhost
-172.27.8.92 nano
-172.27.8.92 worker1
+172.27.8.92 master
 172.27.8.95 worker2
 172.27.8.94 worker3
 ```
+
+and also in each workers add master ip in /etc/hosts
+```bash
+172.27.8.92 master
+```
+
 
 ### Configure Workers
 
